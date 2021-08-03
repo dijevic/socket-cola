@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>websocket</title>
+</head>
+<body class="container">
+    <h1 class="mt-5">cliente del web socket</h1>    
+    <hr>
+
+    <div class="">
+        sever status : 
+        <p id="online" CLASS="text-success">ONLINE !</p>
+        <p id="offline" CLASS="text-danger">OFFLINE</p>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <input type="text"  id="mensajeTxt" class="form-control" placeholder="su mensaje">          
+        </div>
+        <div class="col">
+            <button class="btn btn-primary" id="btn-enviar">ENVIAR</button>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="./socket.io/socket.io.js"></script>
+    <script src="./js/sockets.js"></script>
+</body>
+</html>
