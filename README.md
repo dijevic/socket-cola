@@ -5,6 +5,9 @@
 to install all the npm dependencies
 ```
 npm i
+&
+
+npm i nodemon
 ```
 
 then run :
