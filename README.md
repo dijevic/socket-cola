@@ -1,4 +1,4 @@
-### ticket app 
+### ticket app made with node , express and socket.io  
 
 ### how to use it ?
 
